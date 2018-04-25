@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>review_ADN</title>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+	</head>
+    <body>
+		<h2>Оценка отзыва на мобильный телефон</h2>
+
+		<form method='POST' action='/review'>
+			<table>
+				<p>Введите пример отзыва на мобильный телефон:</p>
+				<textarea name='text' rows=10 cols=60>{{ text_ }}</textarea>
+				<!--<tr><td>Phrase:</td><td><input name='phrase' type='TEXT' width='60'></td></tr>
+				<tr><td>Letters:</td><td><input name='letters' type='TEXT' value='aeiou'></td></tr>-->
+				
+			</table>
+			
+			<p>
+			<input value='Проверить' type='SUBMIT'>
+			<span><em>Нажмите на кнопку, чтобы получить отзыв</em></span>
+			</p>
+
+			<h3>{{ the_results }}</h3>
+			
+		</form>
+    </body>
+</html>
+

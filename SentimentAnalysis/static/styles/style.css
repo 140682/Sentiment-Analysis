@@ -1,0 +1,41 @@
+body {
+  font-family:      Verdana, Geneva, Arial, sans-serif;
+  font-size:        medium;
+  background-color: cornflowerblue;
+  margin-top:       5%;
+  margin-bottom:    5%;
+  margin-left:      10%;
+  margin-right:     10%;
+  padding:          10px 10px 10px 10px;
+}
+
+
+/*** Tables ***/
+h2 {
+	text-shadow: 2px 2px 0px cornflowerblue, 4px 4px 0px royalblue;
+}
+
+
+table {
+font-size:          1em;
+background-color:   #fafcff;
+border:             1px solid #909090;
+color:              #2a2a2a;
+padding:            5px 5px 2px;
+border-collapse:    collapse;
+}
+
+
+/*** Inputs ***/
+
+input[type=text] {
+  font-size:        115%;
+  width:            30em;
+}
+input[type=submit] {
+  font-size:        125%;
+}
+
+span {
+	font-size:        90%;
+}
